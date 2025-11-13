@@ -28,6 +28,6 @@ Details our code for our LDA, PCA analysis
 
 Code to run the kNN model on the Kryptonite dataset, finds optimal k and presents results.
 
-### MLN
+### MLP
 
-Code to evaluate the results from the trained MLN models. The actual training and hyperparameter search is set up in *mln_training.ipynb*, the results over all hyperparameters and the weights from the best performing model on the vaidation set is saved in the *models/* folder. These results are loaded into the experiment_notebook.ipynb to run the experiments. These results are also loaded by *hidden_prediction.ipynb* to produce predictions for each n on the hidden labels.
+Code to evaluate the results from the trained MLN models. The actual training and hyperparameter search is set up in *mln_training.ipynb*, the results over all hyperparameters searched and the weights from the best performing model on the vaidation set is saved in the *models/* folder. These results are loaded into the experiment_notebook.ipynb to run the experiments. These results are also loaded by *hidden_prediction.ipynb* to produce predictions for each n on the hidden labels.
